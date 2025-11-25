@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我 - 个人简介</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* 技能条样式 */
+        .skill-bar { background: #eee; height: 10px; border-radius: 5px; margin-top: 5px; overflow: hidden; }
+        .skill-fill { height: 100%; background: var(--primary-color); width: 0; transition: width 1s; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">About me</div>
+           <nav>
+    <ul>
+        <li><a href="index.html" class="active">首页</a></li>
+        <li><a href="about.html">关于我</a></li>
+        <li><a href="food.html">美食地图</a></li>
+        <li><a href="scenery.html">风景名胜</a></li>
+    </ul>
+</nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="profile-header">
+            <img src="images/avatar.jpg" alt="头像" class="profile-img">
+            <div>
+                <h1 style="margin-bottom: 10px; color: var(--primary-color);">韦周亮</h1>
+                <p style="font-size: 1.1rem; color: #666;">东北大学秦皇岛分校 / 信息管理与信息系统 / 大三学生</p>
+                <p>一个热爱生活、喜欢用镜头记录城市的摄影爱好者。生在柳州，长在柳州，梦想是带着相机环游世界，记录下每一个感动的瞬间。平时喜欢在街头滑板，或者去寻找藏在巷子里的老味道。</p>
+            </div>
+        </div>
+
+        <div class="grid-container" style="margin-top: 40px;">
+            <div class="card">
+                <div class="card-content">
+                    <h3>🛠️ 我的技能</h3>
+                    <p>绘画</p>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 95%"></div></div>
+                    <br>
+                    <p>剪辑 </p>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+                    <br>
+                    <p>音乐</p>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 70%"></div></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>🌟 兴趣爱好</h3>
+                    <ul style="line-height: 2;">
+                        <li>📸 <b>自行车：</b>深夜游荡在属于我一个人的柳州之中。</li>
+                        <li>🛹 <b>滑板：</b>经常出没于市民广场，享受风的自由。</li>
+                        <li>🎵 <b>音乐：</b>民谣爱好者，喜欢收集黑胶唱片。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <footer>
+        <p>Designed by WeiZhouLiang &copy; 2025</p>
+        <p>NEUQ 信息管理和信息系统</p>
+    </footer>
+
+
+</body>
+</html>
